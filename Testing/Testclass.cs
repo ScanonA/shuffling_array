@@ -9,7 +9,7 @@ public class TestClass {
         IEnumerable<int> unshuffled = Enumerable.Range(1, 10000);
         int[] unshuffled_array = unshuffled.ToArray();
         int[] original_array = unshuffled.ToArray();
-        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm.shuffle(unshuffled_array);
+        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm<int>.shuffle(unshuffled_array);
 
         Assert.NotEqual(original_array, shuffled_array);
     }
@@ -17,7 +17,7 @@ public class TestClass {
     [Fact] //Testing if Shuffled array has the correct range
     public void correctRange(){
         int[] unshuffled_array = Enumerable.Range(1, 10000).ToArray();
-        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm.shuffle(unshuffled_array);
+        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm<int>.shuffle(unshuffled_array);
 
         bool correctRange = shuffled_array.All((value) => value >= 1 && value <= 10000);
         Assert.True(correctRange);
@@ -28,7 +28,7 @@ public class TestClass {
         IEnumerable<int> unshuffled = Enumerable.Range(1, 10000);
         int[] unshuffled_array = unshuffled.ToArray();
         int[] original_array = unshuffled.ToArray();
-        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm.shuffle(unshuffled_array);
+        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm<int>.shuffle(unshuffled_array);
 
         Assert.Equal(original_array.Length, shuffled_array.Length);
     }
@@ -36,7 +36,7 @@ public class TestClass {
     [Fact] //Testing if an empty array is passed, empty array is returned
     public void emptyArray(){
         int[] unshuffled_array = {};
-        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm.shuffle(unshuffled_array);
+        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm<int>.shuffle(unshuffled_array);
 
         Assert.Equal(new int[0], shuffled_array);
     }
@@ -44,7 +44,7 @@ public class TestClass {
     [Fact] //Testing if there are any duplicate elements in array
     public void duplicateElements(){
         int[] unshuffled_array = Enumerable.Range(1, 100).ToArray();
-        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm.shuffle(unshuffled_array);
+        int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm<int>.shuffle(unshuffled_array);
         int distinct_elements = shuffled_array.Distinct().Count();
 
         Assert.Equal(shuffled_array.Length, distinct_elements);
@@ -54,7 +54,7 @@ public class TestClass {
     public void nonInteger(){
         dynamic[] unshuffled_array = {"oranges", "apples", "grapes", "lemon", "melon", "watermelon", "cherry", "kiwi", "peach", "plum"};
         dynamic[] original_array = {"oranges", "apples", "grapes", "lemon", "melon", "watermelon", "cherry", "kiwi", "peach", "plum"};
-        dynamic[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm.shuffle(unshuffled_array);
+        dynamic[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm<dynamic>.shuffle(unshuffled_array);
 
         Assert.NotEqual(original_array, shuffled_array);        
     }

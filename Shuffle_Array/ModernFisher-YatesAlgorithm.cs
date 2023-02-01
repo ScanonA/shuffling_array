@@ -1,5 +1,5 @@
 namespace Shuffle_Array {
-    public class ModernFisher_YatesAlgorithm {
+    public class ModernFisher_YatesAlgorithm<T> {
         
         /// summary:
         /// If the array length is shuffle-able, the method returns the result of the "modern_fisher_yates_shuffle" 
@@ -8,7 +8,7 @@ namespace Shuffle_Array {
         /// param name="array_length": array length
         ///
         /// returns: Shuffled or unshuffled array of integers
-        public static T[] shuffle<T>(T[] array){
+        public static T[] shuffle(T[] array){
             int array_length = array.Length;
             if(isShuffleble(array_length)){
                 return modern_fisher_yates_shuffle(array, array_length);
@@ -34,7 +34,7 @@ namespace Shuffle_Array {
         /// param name="array_length": array length
         ///
         /// returns: Shuffled array of integers
-        private static T[] modern_fisher_yates_shuffle<T>(T[] array, int array_length) {
+        private static T[] modern_fisher_yates_shuffle(T[] array, int array_length) {
             Random rand = new Random();
             for(int i=0; i<array_length; i++) {
                 int end_index_ofUnshuffled = (array_length-1) - i;

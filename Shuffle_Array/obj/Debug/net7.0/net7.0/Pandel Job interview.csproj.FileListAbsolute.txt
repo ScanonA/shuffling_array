@@ -1,0 +1,18 @@
+D:\JobSearch\Pandel Job interview\bin\Debug\net7.0\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\JobSearch\Pandel Job interview\bin\Debug\net7.0\net7.0\xunit.runner.reporters.netcoreapp10.dll
+D:\JobSearch\Pandel Job interview\bin\Debug\net7.0\net7.0\xunit.runner.utility.netcoreapp10.dll
+D:\JobSearch\Pandel Job interview\bin\Debug\net7.0\net7.0\Pandel Job interview.exe
+D:\JobSearch\Pandel Job interview\bin\Debug\net7.0\net7.0\Pandel Job interview.deps.json
+D:\JobSearch\Pandel Job interview\bin\Debug\net7.0\net7.0\Pandel Job interview.runtimeconfig.json
+D:\JobSearch\Pandel Job interview\bin\Debug\net7.0\net7.0\Pandel Job interview.dll
+D:\JobSearch\Pandel Job interview\bin\Debug\net7.0\net7.0\Pandel Job interview.pdb
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\Pandel Job interview.csproj.AssemblyReference.cache
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\Pandel Job interview.GeneratedMSBuildEditorConfig.editorconfig
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\Pandel Job interview.AssemblyInfoInputs.cache
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\Pandel Job interview.AssemblyInfo.cs
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\Pandel Job interview.csproj.CoreCompileInputs.cache
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\Pandel Job interview.dll
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\refint\Pandel Job interview.dll
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\Pandel Job interview.pdb
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\Pandel Job interview.genruntimeconfig.cache
+D:\JobSearch\Pandel Job interview\obj\Debug\net7.0\net7.0\ref\Pandel Job interview.dll

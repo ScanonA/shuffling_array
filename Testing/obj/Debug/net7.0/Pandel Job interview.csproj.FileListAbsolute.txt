@@ -1,0 +1,5 @@
+D:\JobSearch\Pandel Job interview\Testing\obj\Debug\net7.0\Pandel Job interview.csproj.AssemblyReference.cache
+D:\JobSearch\Pandel Job interview\Testing\obj\Debug\net7.0\Pandel Job interview.GeneratedMSBuildEditorConfig.editorconfig
+D:\JobSearch\Pandel Job interview\Testing\obj\Debug\net7.0\Pandel Job interview.AssemblyInfoInputs.cache
+D:\JobSearch\Pandel Job interview\Testing\obj\Debug\net7.0\Pandel Job interview.AssemblyInfo.cs
+D:\JobSearch\Pandel Job interview\Testing\obj\Debug\net7.0\Pandel Job interview.csproj.CoreCompileInputs.cache

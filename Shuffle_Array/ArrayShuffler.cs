@@ -1,5 +1,5 @@
 namespace Shuffle_Array {
-    public class ModernFisher_YatesAlgorithm<T> {
+    public class ArrayShuffler<T> {
         
         /// summary:
         /// If the array length is shuffle-able, the method returns the result of the "modern_fisher_yates_shuffle" 

@@ -2,7 +2,7 @@
      public class Program {
         private static void Main(string[] args){
             int[] unshuffled_array = Enumerable.Range(1,10000).ToArray();
-            int[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm<int>.shuffle(unshuffled_array);
+            int[] shuffled_array = Shuffle_Array.ArrayShuffler<int>.shuffle(unshuffled_array);
             print_arr(shuffled_array);
         }  
 

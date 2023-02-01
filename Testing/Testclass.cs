@@ -1,8 +1,6 @@
 using Xunit;
-using System;
 using System.Linq;  
 using System.Collections.Generic;
-using Shuffle_Array;
 
 public class TestClass {
     
@@ -50,5 +48,14 @@ public class TestClass {
         int distinct_elements = shuffled_array.Distinct().Count();
 
         Assert.Equal(shuffled_array.Length, distinct_elements);
+    }
+
+    [Fact] //Testing non integer array
+    public void nonInteger(){
+        dynamic[] unshuffled_array = {"oranges", "apples", "grapes", "lemon", "melon", "watermelon", "cherry", "kiwi", "peach", "plum"};
+        dynamic[] original_array = {"oranges", "apples", "grapes", "lemon", "melon", "watermelon", "cherry", "kiwi", "peach", "plum"};
+        dynamic[] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm.shuffle(unshuffled_array);
+
+        Assert.NotEqual(original_array, shuffled_array);        
     }
 }

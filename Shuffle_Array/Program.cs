@@ -1,8 +1,5 @@
-﻿using System;
-using System.Linq;  
-
-namespace Shuffle_Array{
-    public class Program {
+﻿namespace Shuffle_Array{
+     public class Program {
         private static void Main(string[] args){
             int[] unshuffled_array = Enumerable.Range(1,10000).ToArray();
             int [] shuffled_array = Shuffle_Array.ModernFisher_YatesAlgorithm.shuffle(unshuffled_array);
